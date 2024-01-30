@@ -1,0 +1,16 @@
+.hero__section{
+    background-color: #030620;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    padding: 12rem 20rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.hero__profile-image{
+    height: fit-content;
+    width: 500px;
+    align-self: flex-start;
+}
+
