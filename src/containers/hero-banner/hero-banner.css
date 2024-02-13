@@ -1,16 +1,27 @@
 .hero__section{
-    background-color: #030620;
     min-height: 100vh;
     min-width: 100vw;
     overflow-x: hidden;
-    padding: 12rem 20rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10rem;
 }
 
 .hero__profile-image{
     height: fit-content;
     width: 500px;
-    align-self: flex-start;
+    margin-left: 40vw;
+    margin-bottom: 18vh;
 }
+
+.hero__section__left-content{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 47vh;
+    transform: translate(-50%, -50%);
+    left: 26vw;
+}
+
 

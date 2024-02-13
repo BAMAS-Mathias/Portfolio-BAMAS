@@ -1,0 +1,9 @@
+.parcours__steps-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: calc(50px + 50vw);
+    width: fit-content;
+    height: 100vh;
+    gap: 50px;
+}
