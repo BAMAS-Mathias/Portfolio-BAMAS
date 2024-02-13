@@ -1,0 +1,78 @@
+.competence__container{
+    width: 450px;
+    height: 280px;
+    background-color: rgba(217,217,217,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.competence__container img{
+    height: 110px;
+}
+
+.competence__container h3{
+    color: rgba(228,228,228);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+}
+
+.competence__level{
+    display: flex;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 20px;
+    position: relative;
+}
+
+.competence__level span{
+    width: 220px;
+    height: 20px;
+    background-color: #2B2B2B;
+    border-radius: 20px;
+    display: block;
+}
+
+.competence__debutant p{
+    color: #3DFF44;
+}
+
+.competence__intermediaire p{
+    color: #e76a1d;
+}
+
+.competence__avance p {
+    color: #b72222;
+}
+
+.competence__debutant:before,
+.competence__intermediaire:before,
+.competence__avance:before{
+    position: absolute;
+    bottom: 0;
+    content: ' ';
+    height: 100%;
+    border-radius: 20px;
+}
+
+.competence__debutant:before{
+    background-color: #3DFF44;
+    width: 25%;
+}
+
+.competence__intermediaire:before{
+    background-color: #e76a1d;
+    width: 40%;
+}
+
+.competence__avance:before{
+    background-color: #b72222;
+    width: 65%;
+}
+
+

@@ -1,0 +1,20 @@
+@keyframes scroll {
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(-50%);
+    }
+    100.01%{
+        transform: translate(0);
+    }
+}
+
+.competences-caroussel{
+    display: flex;
+    gap: 45px;
+    width: fit-content;
+    animation: scroll 20s linear infinite -1s;
+    align-self: flex-start;
+
+}

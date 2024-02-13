@@ -1,13 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './hero-banner.css';
 import Presentation from "../../components/presentation/Presentation";
 import Navbar from "../../components/navbar/Navbar";
 
-const HeroBanner = () => (
-    <div className="hero__section">
+
+const HeroBanner = () => {
+    return <div className="hero__section">
         <div className={"hero__section__left-content"}>
             <Presentation/>
-            <Navbar />
+            <Navbar/>
         </div>
         <svg className={"hero__profile-image"} viewBox="125 125 760 690" xmlns="http://www.w3.org/2000/svg"
              width="100%" height="100%">
@@ -22,6 +23,7 @@ const HeroBanner = () => (
         </svg>
 
     </div>
-);
+
+};
 
 export default HeroBanner;
