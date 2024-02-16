@@ -52,3 +52,52 @@
 .presentation__links__icons:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 1350px){
+    .presentation__heading{
+        font-size: 60px;
+    }
+
+    .presentation__link-list{
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .presentation__content{
+        width: 70% !important;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .presentation__content{
+        width: 70% !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    .presentation__link-list{
+        margin-top: 20px;
+    }
+
+    .presentation__heading{
+        font-size: 40px;
+    }
+
+    .presentation__sub-heading{
+        font-size: 22px;
+    }
+
+    .presentation__text{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .presentation__content{
+        width: 95% !important;
+    }
+
+}

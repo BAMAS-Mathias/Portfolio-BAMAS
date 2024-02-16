@@ -6,7 +6,7 @@ import "./mes-competences.css";
 const MesCompetences = () => (
     <div id={"mes-competences__container"}>
         <h2 className={"mes-competences__title"}>Mes compétences</h2>
-        <p className={"mes-competences__sub-title"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+        <p className={"mes-competences__sub-title"}>Voici la liste de mes compétences apprise lors de mes études mais aussi pendant mon temps personnel</p>
         <CompetencesCaroussel />
     </div>
 )

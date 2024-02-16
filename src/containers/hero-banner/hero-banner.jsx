@@ -14,7 +14,7 @@ const HeroBanner = () => {
              width="100%" height="100%">
             <defs>
                 <pattern id="img1" patternUnits="userSpaceOnUse" width="920" height="800">
-                    <image href={require("../../assets/img/profile-picture.png")} x="0" y="0" width="950" height="800"/>
+                    <image href={require("../../assets/img/photo.jpg")} x="0" y="0" width="950" height="800"/>
                 </pattern>
             </defs>
             <path fill="url(#img1)"

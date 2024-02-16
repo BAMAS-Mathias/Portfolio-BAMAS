@@ -4,14 +4,15 @@ import './app.css'
 import './variable.css'
 import Parcours from "./containers/parcours/Parcours";
 import MesCompetences from "./containers/competences/mes-competences";
+import Projets from "./containers/projets/projets";
 
 const App = () => {
 
     const handleScroll = () => {
         let hero_section_left = document.querySelector(".hero__section__left-content");
-        if(document.documentElement.scrollTop > 903){
+        if(document.documentElement.scrollTop > 850){
             hero_section_left.style.position = "absolute"
-            hero_section_left.style.top = "149vh"
+            hero_section_left.style.top = "140vh"
         }else{
             hero_section_left.style.position = "fixed";
             hero_section_left.style.top = "47vh";
@@ -28,6 +29,7 @@ const App = () => {
             <HeroBanner />
             <Parcours />
             <MesCompetences />
+            <Projets />
         </div>
     );
 

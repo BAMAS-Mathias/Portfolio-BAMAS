@@ -16,5 +16,24 @@
     width: fit-content;
     animation: scroll 20s linear infinite -1s;
     align-self: flex-start;
+}
 
+@media screen and (max-width: 800px){
+    .competences-caroussel{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,200px);
+        grid-gap: 5px;
+        animation: none;
+        width: 90vw;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width:500px){
+    .competences-caroussel{
+        grid-template-columns: repeat(auto-fit,125px);
+    }
 }

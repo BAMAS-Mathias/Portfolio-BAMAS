@@ -1,11 +1,12 @@
 #mes-competences__container{
-    min-height: fit-content;
+    min-height: 80vh;
     min-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 0 10rem 0;
+    justify-content: center;
     position: relative;
+    margin-bottom: 20vh;
 }
 
 #mes-competences__container .mes-competences__title{
@@ -22,6 +23,7 @@
     width: 600px;
     font-family: "Inter", serif;
     padding-bottom: 3rem;
+    margin-bottom: 100px;
 }
 
 #mes-competences__container:before,
@@ -43,4 +45,31 @@
     right: 0;
     background: linear-gradient(-90deg, rgba(3,6,32,1) 0%, rgba(3,6,32,1) 41%, rgba(3,6,32,0) 100%);
     z-index: 2;
+}
+
+@media screen and (max-width: 800px) {
+
+    .mes-competences__sub-title{
+        margin: 0 !important;
+    }
+
+    .mes-competences__title,
+    .mes-competences__sub-title{
+        width: 80vw !important;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .mes-competences__title{
+        font-size: 32px !important;
+    }
+
+    .mes-competences__sub-title{
+        font-size: 14px !important;
+
+    }
+
 }

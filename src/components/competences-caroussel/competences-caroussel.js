@@ -2,57 +2,83 @@ import React from 'react';
 import Competence from "../competence/competence";
 import "./competences-caroussel.css";
 import reactIcon from "../../assets/logo/React-icon.png"
+import cssIcon from "../../assets/logo/Css-icon.png";
+import htmlIcon from "../../assets/logo/Html-icon.png";
+import javaIcon from "../../assets/logo/Java-icon.png";
+import javascriptIcon from "../../assets/logo/Javascript-icon.png";
+import mysqlIcon from "../../assets/logo/MySQL-icon.svg";
+import pythonIcon from "../../assets/logo/Python-icon.png";
+import phpIcon from "../../assets/logo/php-icon.png";
 
 const CompetencesCaroussel = () => (
     <div className={"competences-caroussel"}>
         <Competence
-            competence={"1"}
+            competence={"HTML"}
+            progress={"AVANCE"}
+            img={htmlIcon}/>
+        <Competence
+            competence={"CSS"}
+            progress={"AVANCE"}
+            img={cssIcon}/>
+        <Competence
+            competence={"JAVASCRIPT"}
+            progress={"AVANCE"}
+            img={javascriptIcon}/>
+        <Competence
+            competence={"REACT"}
             progress={"DEBUTANT"}
             img={reactIcon}/>
         <Competence
-            competence={"2"}
+            competence={"JAVA"}
             progress={"INTERMEDIAIRE"}
-            img={reactIcon}/>
+            img={javaIcon}/>
         <Competence
-            competence={"3"}
-            progress={"AVANCE"}
-            img={reactIcon}/>
+                competence={"PYTHON"}
+                progress={"INTERMEDIAIRE"}
+                img={pythonIcon}/>
         <Competence
-            competence={"4"}
-            progress={"INTERMEDIAIRE"}
-            img={reactIcon}/>
+                competence={"SQL"}
+                progress={"AVANCE"}
+                img={mysqlIcon}/>
         <Competence
-            competence={"5"}
-            progress={"AVANCE"}
-            img={reactIcon}/>
+                competence={"PHP"}
+                progress={"INTERMEDIAIRE"}
+                img={phpIcon}/>
+
+
+
         <Competence
-            competence={"3"}
-            progress={"DEBUTANT"}
-            img={reactIcon}/>
+                competence={"HTML"}
+                progress={"AVANCE"}
+                img={htmlIcon}/>
         <Competence
-                competence={"1"}
+                competence={"CSS"}
+                progress={"AVANCE"}
+                img={cssIcon}/>
+        <Competence
+                competence={"JAVASCRIPT"}
+                progress={"INTERMEDIAIRE"}
+                img={javascriptIcon}/>
+        <Competence
+                competence={"REACT"}
                 progress={"DEBUTANT"}
                 img={reactIcon}/>
         <Competence
-                competence={"2"}
+                competence={"JAVA"}
                 progress={"INTERMEDIAIRE"}
-                img={reactIcon}/>
+                img={javaIcon}/>
         <Competence
-                competence={"3"}
-                progress={"AVANCE"}
-                img={reactIcon}/>
-        <Competence
-                competence={"4"}
+                competence={"PYTHON"}
                 progress={"INTERMEDIAIRE"}
-                img={reactIcon}/>
+                img={pythonIcon}/>
         <Competence
-                competence={"5"}
+                competence={"SQL"}
                 progress={"AVANCE"}
-                img={reactIcon}/>
+                img={mysqlIcon}/>
         <Competence
-                competence={"3"}
-                progress={"DEBUTANT"}
-                img={reactIcon}/>
+                competence={"PHP"}
+                progress={"INTERMEDIAIRE"}
+                img={phpIcon}/>
     </div>
 )
 

@@ -75,4 +75,76 @@
     width: 65%;
 }
 
+@media screen and (max-width: 800px) {
+
+    .competence__avance:before,
+    .competence__intermediaire:before,
+    .competence__debutant:before{
+        height: 10px;
+        top: 0;
+        left: 10%;
+    }
+
+    .competence__container span{
+        width: 80%;
+        height: 10px;
+    }
+
+
+    .competence__container{
+        width: 200px;
+        height: 220px;
+        gap: 10px;
+        border-radius: 0 0px 0px 0;
+    }
+
+    .competence__container:nth-child(n+9){
+        display: none;
+    }
+
+    .competence__container img{
+        width: 75px;
+        height: auto;
+    }
+
+    .competence__container .competence__level{
+        font-size: 24px;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    .competence__container:nth-child(2){
+        border-radius: 0 10px 0 0;
+    }
+
+    .competence__container:nth-child(1){
+        border-radius: 10px 0 0 0;
+    }
+
+    .competence__container p{
+        font-size: 18px;
+    }
+}
+
+@media screen  and (max-width:500px){
+    .competence__container{
+        width: 125px;
+        height: 125px;
+    }
+
+    .competence__container img{
+        width: 40px;
+        height: auto;
+    }
+
+    .competence__container h3{
+        font-size: 18px;
+    }
+
+    .competence__container p{
+        display: none;
+    }
+}
+
 
