@@ -9,6 +9,7 @@ import javascriptIcon from "../../assets/logo/Javascript-icon.png";
 import mysqlIcon from "../../assets/logo/MySQL-icon.svg";
 import pythonIcon from "../../assets/logo/Python-icon.png";
 import phpIcon from "../../assets/logo/php-icon.png";
+import gitIcon from "../../assets/logo/git-icon.png";
 
 const CompetencesCaroussel = () => (
     <div className={"competences-caroussel"}>
@@ -44,6 +45,10 @@ const CompetencesCaroussel = () => (
                 competence={"PHP"}
                 progress={"INTERMEDIAIRE"}
                 img={phpIcon}/>
+        <Competence
+                competence={"GIT"}
+                progress={"INTERMEDIAIRE"}
+                img={gitIcon}/>
 
 
 
@@ -79,6 +84,10 @@ const CompetencesCaroussel = () => (
                 competence={"PHP"}
                 progress={"INTERMEDIAIRE"}
                 img={phpIcon}/>
+        <Competence
+                competence={"GIT"}
+                progress={"INTERMEDIAIRE"}
+                img={gitIcon}/>
     </div>
 )
 

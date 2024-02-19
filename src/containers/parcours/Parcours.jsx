@@ -6,12 +6,12 @@ const Parcours = () => (
     <div id={"parcours"} className={"parcours__steps-container"}>
         <header>
             <h2 className={"parcours__title"}>Mon Parcours</h2>
-            <p className={"parcours__subtitle"}>Voici mon parcours réalisé ainsi que les diplomes que j'ai obtenus</p>
+            <p className={"parcours__subtitle"}>Voici mon parcours réalisé ainsi que les diplomes que j'ai obtenu</p>
         </header>
         <ParcoursStep
             title={"BUT Info IUT Aix-Marseille"}
             date={"2022 - Aujourd’hui"}
-            text={"Actuellement en deuxième année de BUT Informatique à l'IUT d'Aix Marseille dans le parcours réalisation et conception d'applications. J'y ai eu l'occasion de découvrir de nombreux languages, de réalisé multiples projets mais aussi d'apprendre a collaborer en équipe dans un but commun"}
+            text={"Je suis actuellement en deuxième année de BUT Informatique à l'IUT d'Aix-Marseille, dans le parcours \"Réalisation et Conception d'Applications\". J'ai eu l'occasion de découvrir de nombreux langages, de réaliser plusieurs projets, mais aussi d'apprendre à collaborer en équipe autour d'un projet commun."}
         />
         <ParcoursStep
             title={"Lycée Emile Zola"}
